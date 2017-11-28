@@ -30,12 +30,12 @@ countries = do
 
 -- | Country information
 data Country = Country
-   { countryNameArabic                 :: !Text -- ^ Country or Area official Arabic short name from UN Statistics Divsion
-   , countryNameChinese                :: !Text -- ^ Country or Area official Chinese short name from UN Statistics Divsion
-   , countryNameEnglish                :: !Text -- ^ Country or Area official English short name from UN Statistics Divsion
-   , countryNameSpanish                :: !Text -- ^ Country or Area official Spanish short name from UN Statistics Divsion
-   , countryNameFrench                 :: !Text -- ^ Country or Area official French short name from UN Statistics Divsion
-   , countryNameRussian                :: !Text -- ^ Country or Area official Russian short name from UN Statistics Divsion
+   { countryOfficialNameArabic         :: !Text -- ^ Country or Area official Arabic short name from UN Statistics Division
+   , countryOfficialNameChinese        :: !Text -- ^ Country or Area official Chinese short name from UN Statistics Division
+   , countryOfficialNameEnglish        :: !Text -- ^ Country or Area official English short name from UN Statistics Division
+   , countryOfficialNameSpanish        :: !Text -- ^ Country or Area official Spanish short name from UN Statistics Division
+   , countryOfficialNameFrench         :: !Text -- ^ Country or Area official French short name from UN Statistics Division
+   , countryOfficialNameRussian        :: !Text -- ^ Country or Area official Russian short name from UN Statistics Division
    , countryISO3166CodeAlpha2          :: !Text -- ^ Alpha-2 codes from ISO 3166-1
    , countryISO3166CodeAlpha3          :: !Text -- ^ Alpha-3 codes from ISO 3166-1 (synonymous with World Bank Codes)
    , countryISO3166CodeNumeric         :: !Word -- ^ Numeric codes from ISO 3166-1
