@@ -28,7 +28,7 @@ countries = do
       Left err -> error ("Invalid country data: " ++ show err)
       Right vs -> vs
 
--- | Country names/codes (according to ISO 3166)
+-- | Country information
 data Country = Country
    { countryNameArabic                 :: !Text -- ^ Country or Area official Arabic short name from UN Statistics Divsion
    , countryNameChinese                :: !Text -- ^ Country or Area official Chinese short name from UN Statistics Divsion
