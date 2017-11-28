@@ -1,0 +1,6 @@
+resolver: lts-9.10
+packages:
+- '.'
+
+extra-deps:
+   - haskus-utils-0.7.0.0
